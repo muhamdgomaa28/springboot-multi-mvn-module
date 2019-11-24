@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="persistance:war">
+    <output-path>$PROJECT_DIR$/persistance/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>persistance</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="persistance-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="persistance:war exploded" />
+    </root>
+  </artifact>
+</component>
